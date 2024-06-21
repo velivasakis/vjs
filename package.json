@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "video.js": "^8.12.0",
+    "videojs-contrib-ads": "^7.5.2",
+    "videojs-ima": "^2.3.0"
+  },
+  "scripts": {
+    "start": "esbuild index.js --bundle --outdir=dist --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  }
+}
